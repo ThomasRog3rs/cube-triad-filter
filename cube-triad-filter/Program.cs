@@ -15,6 +15,7 @@ class Program
             
         string[] games = File.ReadAllLines(calibrationDocument);
         int sumOfValidGameIds = 0;
+        int sumOfGameMinPowers = 0;
 
         foreach (var currentGame in games)
         {
@@ -25,6 +26,8 @@ class Program
             bool gameValid = true; //assume every game is possible until proven otherwise
 
             var gameRounds = gameData.Split("; ");
+            int minRed = 0, minBlue = 0, minGreen = 0;
+            int roundIndex = 0;
             foreach (var round in gameRounds)
             {
                 var colours = round.Split(", ");
@@ -45,10 +48,22 @@ class Program
                         case "green":
                             greenCount = colourCount;
                             break;
-                        default:
-                            continue;
                     }
                 }
+                
+                if (roundIndex == 0)
+                {
+                    minRed = redCount;
+                    minBlue = blueCount;
+                    minGreen = greenCount;
+                }
+
+                //Set the minimum amount of colours that must have been in that game
+                if (redCount > minRed) minRed = redCount;
+                if (blueCount > minBlue) minBlue = blueCount;
+                if (greenCount > minGreen) minGreen = greenCount;
+                
+                roundIndex ++;
                 
                 var validRound = IsValidRound(redCount, blueCount, greenCount);
                 if (gameValid)
@@ -58,12 +73,17 @@ class Program
             }
             
             if (gameValid)
-            {
+            {   
                 sumOfValidGameIds += gameId;
             }
-        }
 
+            sumOfGameMinPowers += (minRed * minBlue * minGreen);
+            Console.WriteLine($"The Lowest possible amount for each colour in game {gameId}: Red: {minRed} , Blue: {minBlue}, Green: {minGreen}");
+        }
+        
+        
         Console.WriteLine($"Sum of valid IDs: {sumOfValidGameIds}"); //Answer to the problem (Advent of code day 2, part 1, 2023
+        Console.WriteLine($"Sum of powers in games: {sumOfGameMinPowers}"); //Answer to the problem (Advent of code day 2, part 2, 2023
     }
 
     static bool IsValidRound(int red, int blue, int green)

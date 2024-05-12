@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cube-triad-filter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f66a049c4c526679338175f3a4ca6eda4ae07800")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6421b92c8cdd36f2ed6787c9ac37ebd0b197a81")]
 [assembly: System.Reflection.AssemblyProductAttribute("cube-triad-filter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cube-triad-filter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
