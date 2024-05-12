@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "cube-triad-filter/1.0.0": {
+        "runtime": {
+          "cube-triad-filter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cube-triad-filter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

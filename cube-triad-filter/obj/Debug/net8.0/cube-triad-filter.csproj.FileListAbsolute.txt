@@ -1,0 +1,14 @@
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/bin/Debug/net8.0/cube-triad-filter
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/bin/Debug/net8.0/cube-triad-filter.deps.json
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/bin/Debug/net8.0/cube-triad-filter.runtimeconfig.json
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/bin/Debug/net8.0/cube-triad-filter.dll
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/bin/Debug/net8.0/cube-triad-filter.pdb
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.GeneratedMSBuildEditorConfig.editorconfig
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.AssemblyInfoInputs.cache
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.AssemblyInfo.cs
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.csproj.CoreCompileInputs.cache
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.dll
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/refint/cube-triad-filter.dll
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.pdb
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.genruntimeconfig.cache
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/ref/cube-triad-filter.dll
