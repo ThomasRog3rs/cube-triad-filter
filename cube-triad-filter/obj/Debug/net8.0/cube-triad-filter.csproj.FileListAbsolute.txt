@@ -12,3 +12,4 @@
 /home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.pdb
 /home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.genruntimeconfig.cache
 /home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/ref/cube-triad-filter.dll
+/home/tom/RiderProjects/cube-triad-filter/cube-triad-filter/obj/Debug/net8.0/cube-triad-filter.sourcelink.json
